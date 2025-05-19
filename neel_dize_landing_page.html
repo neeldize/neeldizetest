@@ -4,22 +4,26 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Neel Dize – Official Website</title>
-  <!-- Google Fonts link for Archivo -->
-  <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
   <style>
     html, body {
       margin: 0;
       padding: 0;
       background-color: #ffffff;
       color: #000000;
-      font-family: 'Calibri', sans-serif;
-      line-height: 1.6;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      line-height: 1.4;
       text-align: center;
       height: 100%;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    body {
+      flex: 1;
     }
 
     h1 {
-      font-family: 'Archivo', sans-serif;
       font-size: 3em;
       margin-bottom: 0.2em;
       color: #000000;
@@ -29,7 +33,7 @@
     }
 
     h2 {
-      margin-bottom: 0.25em; /* reduced spacing */
+      margin-bottom: 0.2em;
     }
 
     .profile-pic {
@@ -40,11 +44,11 @@
     }
 
     .section {
-      margin-top: 2em;
+      margin-top: 1.5em;
     }
 
     ul {
-      margin-top: 0; /* removed top margin */
+      margin-top: 0;
       list-style-type: none;
       padding-left: 0;
       display: inline-block;
@@ -52,23 +56,41 @@
     }
 
     li {
-      margin-bottom: 0.5em;
+      margin-bottom: 0.4em;
       font-weight: normal;
     }
 
     .biography {
       max-width: 600px;
       margin: 0 auto 2em auto;
-      font-family: 'Calibri', sans-serif;
       color: #222;
       font-weight: normal;
-      text-align: left;
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    footer {
+      padding: 1em 0;
+      background: #f0f0f0;
+      font-size: 0.9em;
+      color: #000;
+      margin-top: auto;
+    }
+
+    footer a {
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
 
-  <h1>Neel Dize</h1>
+  <h1>NEEL DIZE</h1>
 
   <img src="https://i.imgur.com/t9m8Yi2.jpeg" alt="Neel Dize" class="profile-pic" />
 
@@ -101,6 +123,10 @@
       <li>Spicy Feli – 2023</li>
     </ul>
   </div>
+
+  <footer>
+    <a href="https://www.instagram.com/neeldize/?hl=fr" target="_blank" rel="noopener noreferrer">Follow Neel Dize on Instagram</a>
+  </footer>
 
 </body>
 </html>
