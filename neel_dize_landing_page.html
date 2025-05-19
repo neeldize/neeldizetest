@@ -4,27 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Neel Dize – Official Website</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
-
   <style>
-    html, body {
+    body {
       margin: 0;
-      padding: 0;
+      padding: 40px;
       background-color: #ffffff;
       color: #000000;
-      font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
       line-height: 1.4;
       text-align: center;
-      height: 100%;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
       letter-spacing: 0.05em;
-    }
-
-    body {
-      flex: 1;
     }
 
     h1 {
@@ -49,13 +38,23 @@
       display: block;
     }
 
+    .biography {
+      max-width: 600px;
+      margin: 0 auto 2em auto;
+      color: #444444;
+      font-weight: bold;
+      text-align: center;
+      line-height: 1.5;
+    }
+
     .section {
       margin-top: 1.5em;
       color: #444444;
       max-width: 600px;
       margin-left: auto;
       margin-right: auto;
-      text-align: center; /* Center text inside sections */
+      text-align: center;
+      font-weight: bold;
     }
 
     ul {
@@ -67,16 +66,16 @@
     }
 
     ul.discography {
-      max-width: 350px; /* narrower block to keep it centered */
+      max-width: 350px;
     }
 
-    li {
+    ul.discography li {
       margin-bottom: 0.4em;
-      font-weight: normal;
       display: flex;
       justify-content: space-between;
       padding-right: 10px;
       font-size: 1em;
+      font-weight: bold;
     }
 
     li span.year {
@@ -86,21 +85,12 @@
       font-weight: 600;
     }
 
-    .biography {
-      max-width: 600px;
-      margin: 0 auto 2em auto;
-      color: #444444;
-      font-weight: normal;
-      text-align: center;
-      line-height: 1.5;
-    }
-
     footer {
       padding: 1em 0;
       background: #f0f0f0;
       font-size: 0.9em;
       color: #000;
-      margin-top: auto;
+      margin-top: 3em;
     }
 
     footer a {
