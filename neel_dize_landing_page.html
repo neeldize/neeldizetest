@@ -19,7 +19,7 @@
     /* Artist name doubled in size */
     h1 {
       font-size: 6em;
-      margin-bottom: 1.5em; /* small space between artist title and picture */
+      margin-bottom: 1.5em; /* space between artist title and picture */
       color: #000000;
       font-weight: normal;
       text-transform: uppercase;
@@ -28,8 +28,8 @@
 
     /* Section titles in Arial */
     h2 {
-      margin-top: 2em;
-      margin-bottom: 0.4em;
+      margin-top: 1em;    /* 1em space below picture */
+      margin-bottom: 1em; /* 1em space below h2 (before biography text) */
       color: #222222;
       text-transform: uppercase;
       font-weight: bold;
@@ -38,7 +38,7 @@
 
     .profile-pic {
       display: block;
-      margin: 0 auto 40px auto;
+      margin: 0 auto;
       max-width: 25%; /* reduced size by half */
       height: auto;
     }
@@ -55,6 +55,7 @@
 
     .biography {
       text-align: center;
+      margin-top: 0; /* override any extra spacing */
     }
 
     .footer {
