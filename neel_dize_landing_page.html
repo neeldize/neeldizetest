@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Neel Dize – Official Website</title>
 
-  <!-- Google Fonts: Montserrat -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
 
   <style>
@@ -34,11 +33,12 @@
       color: #000000;
       font-weight: normal;
       text-transform: none;
-      letter-spacing: 0.075em; /* reduced by 25% from 0.1em */
+      letter-spacing: 0.075em;
     }
 
     h2 {
       margin-bottom: 0.2em;
+      color: #333333;
     }
 
     .profile-pic {
@@ -51,25 +51,45 @@
 
     .section {
       margin-top: 1.5em;
+      color: #444444;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center; /* Center text inside sections */
     }
 
     ul {
       margin-top: 0;
       list-style-type: none;
       padding-left: 0;
-      display: inline-block;
-      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    ul.discography {
+      max-width: 350px; /* narrower block to keep it centered */
     }
 
     li {
       margin-bottom: 0.4em;
       font-weight: normal;
+      display: flex;
+      justify-content: space-between;
+      padding-right: 10px;
+      font-size: 1em;
+    }
+
+    li span.year {
+      color: #666666;
+      min-width: 70px;
+      text-align: right;
+      font-weight: 600;
     }
 
     .biography {
       max-width: 600px;
       margin: 0 auto 2em auto;
-      color: #222;
+      color: #444444;
       font-weight: normal;
       text-align: center;
       line-height: 1.5;
@@ -108,25 +128,25 @@
   <div class="section">
     <h2>Discography</h2>
     <ul class="discography">
-      <li>EP: Bottled Mind – 2020</li>
-      <li>Album: Timesoldier Album – 2025</li>
+      <li><span>EP: Bottled Mind</span> <span class="year">2020</span></li>
+      <li><span>Album: Timesoldier Album</span> <span class="year">2025</span></li>
     </ul>
   </div>
 
   <div class="section">
     <h2>Live</h2>
     <ul class="concerts">
-      <li>Les Disquaires (Paris) – 14, 07, 2024</li>
+      <li><span>Les Disquaires (Paris)</span> <span class="year">14, 07, 2024</span></li>
     </ul>
   </div>
 
   <div class="section">
     <h2>Music Videos</h2>
     <ul class="videos">
-      <li>Bluffin – 2022</li>
-      <li>1000 Faces – 2024</li>
-      <li>Cloud Nine – 2024</li>
-      <li>Spicy Feli – 2023</li>
+      <li><span>Bluffin</span> <span class="year">2022</span></li>
+      <li><span>1000 Faces</span> <span class="year">2024</span></li>
+      <li><span>Cloud Nine</span> <span class="year">2024</span></li>
+      <li><span>Spicy Feli</span> <span class="year">2023</span></li>
     </ul>
   </div>
 
