@@ -24,22 +24,19 @@
       margin-bottom: 0.2em;
       color: #000000;
       font-weight: normal;
-      text-transform: uppercase; /* all caps */
+      text-transform: uppercase;
       letter-spacing: 0.1em;
     }
 
-    .tagline {
-      font-style: italic;
-      color: #444444;
-      margin-bottom: 1.5em;
-      font-weight: normal;
+    h2 {
+      margin-bottom: 0.25em; /* reduced spacing */
     }
 
     .profile-pic {
       max-width: 300px;
       height: auto;
       border-radius: 8px;
-      margin-bottom: 2em;
+      margin-bottom: 1em;
     }
 
     .section {
@@ -47,6 +44,7 @@
     }
 
     ul {
+      margin-top: 0; /* removed top margin */
       list-style-type: none;
       padding-left: 0;
       display: inline-block;
@@ -57,14 +55,27 @@
       margin-bottom: 0.5em;
       font-weight: normal;
     }
+
+    .biography {
+      max-width: 600px;
+      margin: 0 auto 2em auto;
+      font-family: 'Calibri', sans-serif;
+      color: #222;
+      font-weight: normal;
+      text-align: left;
+    }
   </style>
 </head>
 <body>
 
   <h1>Neel Dize</h1>
-  <div class="tagline">An artist. Alternative. Shithhf (then,)</div>
 
   <img src="https://i.imgur.com/t9m8Yi2.jpeg" alt="Neel Dize" class="profile-pic" />
+
+  <div class="biography">
+    <h2>Biography</h2>
+    <p>Neel Dize is a groundbreaking artist blending alternative sounds and experimental vibes. Emerging from the underground scene, his music explores themes of identity, time, and rebellion, inviting listeners on a unique sonic journey.</p>
+  </div>
 
   <div class="section">
     <h2>Discography</h2>
