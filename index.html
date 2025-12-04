@@ -4,6 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>NEEL DIZE – Official Website</title>
+
+  <!-- Google Font: Archivo Black -->
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
   <style>
     body {
       margin: 0;
@@ -16,10 +20,11 @@
       letter-spacing: 0.05em;
     }
 
-    /* Artist name doubled in size */
+    /* Artist name using Archivo Black */
     h1 {
+      font-family: 'Archivo Black', sans-serif;
       font-size: 6em;
-      margin-bottom: 0.75em; /* reduced spacing between artist title and picture */
+      margin-bottom: 0.75em;
       color: #000000;
       font-weight: normal;
       text-transform: uppercase;
@@ -28,7 +33,7 @@
 
     /* Section titles in Arial */
     h2 {
-      margin-top: 4em;    /* space between picture and title */
+      margin-top: 4em;
       margin-bottom: 1em;
       color: #222222;
       text-transform: uppercase;
@@ -39,23 +44,16 @@
     .profile-pic {
       display: block;
       margin: 0 auto;
-      max-width: 25%; /* reduced size by half */
+      max-width: 25%;
       height: auto;
     }
 
-    /* Content text in Times New Roman */
     .section-content {
       color: #444444;
       font-weight: normal;
       margin-bottom: 1em;
       font-family: 'Times New Roman', Times, serif;
       line-height: 2;
-      text-align: center;
-    }
-
-    .biography {
-      text-align: center;
-      margin-top: 0;
     }
 
     .footer {
@@ -122,83 +120,3 @@
 <body>
 
   <h1>NEEL DIZE</h1>
-
-  <img class="profile-pic" src="https://i.imgur.com/uixdQRK.jpeg" alt="Neel Dize"/>
-
-  <h2>Biography</h2>
-  <div class="section-content biography">
-    <span>Neel Dize is a genre-bending artist whose work explores time, identity,</span><br/>
-    <span>and the distortion of self in the modern world.</span>
-  </div>
-
-  <h2>Discography</h2>
-  <div class="section-content">
-    Timesoldier (Album) – 11 tracks, 44 mins – <i>January 2025</i><br/>
-    Magnet City (E.P.) – 3 tracks, 10 mins – <i>November 2021</i><br/>
-  </div>
-
-  <h2>Live</h2>
-  <div class="section-content">
-    <a href="https://www.youtube.com/watch?v=YimEfFbV4oo" target="_blank">
-      Timesoldier Live Session (Art Studio in Paris, France) - 30.11.2025 
-    </a>
-    <br/><br/>
-    Les Disquaires (Paris, France) – 14.07.2024<br/>
-    Le Slam (Paris, France) – 13.04.2022<br/><br/>
-  </div>
-
-  <h2>Music Videos</h2>
-  <div class="section-content">
-    Define Me - <i>January 2025</i><br/>
-    Cloud nine - <i>February 2024</i><br/>
-    1000 faces - <i>January 2024</i><br/>
-    Spicy feli - <i>October 2023</i><br/>
-    Bluffin <i>2022</i><br/>
-  </div>
-
-  <div class="footer">
-    <a href="https://www.instagram.com/neeldize/?hl=fr" target="_blank">Instagram</a> |
-    <a href="https://www.tiktok.com/@neeldize" target="_blank">Tik Tok</a> |
-    <a href="https://www.youtube.com/@neeldize" target="_blank">YouTube</a>
-    
-    <br/><br/>
-    
-    Contact: <a href="mailto:contact@neeldize.com">contact@neeldize.com</a>
-
-    <div class="newsletter-form">
-      <div class="newsletter-title">Sign up & Stay updated</div>
-
-      <!-- Mailchimp embedded form (simplified, but keeps all required fields) -->
-      <form action="https://neeldize.us14.list-manage.com/subscribe/post?u=e0acce48c3d32585319efdc89&amp;id=9560cfac5b&amp;f_id=0015bae0f0"
-            method="post"
-            id="mc-embedded-subscribe-form"
-            name="mc-embedded-subscribe-form"
-            target="_blank"
-            novalidate>
-        
-        <div class="newsletter-row">
-          <input type="email"
-                 name="EMAIL"
-                 class="newsletter-input"
-                 id="mce-EMAIL"
-                 placeholder="Enter your email"
-                 required>
-          
-          <button type="submit"
-                  name="subscribe"
-                  id="mc-embedded-subscribe"
-                  class="newsletter-button">
-            Subscribe
-          </button>
-        </div>
-
-        <!-- real people should not fill this in - anti-bot field (do not remove) -->
-        <div style="position: absolute; left: -5000px;" aria-hidden="true">
-          <input type="text" name="b_e0acce48c3d32585319efdc89_9560cfac5b" tabindex="-1" value="">
-        </div>
-      </form>
-    </div>
-  </div>
-
-</body>
-</html>
